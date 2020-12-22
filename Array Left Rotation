@@ -1,0 +1,35 @@
+Using Python:
+def rotateLeft(d, arr):
+    n=len(arr)
+    
+    for i in range(0,d):
+        temp=arr[0]
+        for j in range(0,n):
+            if(j!=n-1):
+                arr[j]=arr[j+1]
+            else:
+                arr[n-1]=temp
+    return arr
+    
+    Using Java:
+    
+                int n=a.length;
+            int temp=0;
+            
+            for(int i=0;i<d;i++){
+                 temp=a[n-1];
+                a[n-1]=a[0];
+                
+                for(int j=0;j<=n-2;j++){
+                    if(j==n-2){
+                        a[j]=temp;
+                    }
+                    else{
+                        a[j]=a[j+1];
+
+                    }
+                    
+                }
+            }
+
+            return a;
