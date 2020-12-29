@@ -1,0 +1,26 @@
+Solve In Python:
+def connectingTowns(n, routes):
+    total_route=1;
+    for i in range (0,len(routes)):
+        if(routes[i]==0):
+            return 0
+        else:
+            total_route=total_route*routes[i]
+    return total_route % 1234567
+        
+ Solve In C#:
+     static int connectingTowns(int n, int[] routes) {
+        int total_route=1;
+        int len=routes.Length;
+        for (int i=0;i<len;i++){
+            if(routes[i]==0){
+                return 0;
+            }
+            else{
+                total_route=total_route*routes[i];
+            }
+            
+        }
+        return (total_route%1234567);
+    }
+ 
