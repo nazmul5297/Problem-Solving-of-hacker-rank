@@ -30,7 +30,7 @@ Sample Input 0
 
 javascriptloops
 Sample Output 0
-
+```
 a
 a
 i
@@ -46,6 +46,7 @@ t
 l
 p
 s
+```
 Explanation 0
 
 Observe the following:
